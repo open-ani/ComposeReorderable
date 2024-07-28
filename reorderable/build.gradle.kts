@@ -14,6 +14,7 @@ version = "0.9.7"
 kotlin {
     jvm()
     iosArm64()
+    iosSimulatorArm64()
 //    js(IR) {
 //        browser()
 //        binaries.executable()
