@@ -3,6 +3,7 @@ import org.jetbrains.compose.ComposeBuildConfig.composeVersion
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
+    kotlin("plugin.compose")
     id("maven-publish")
     id("signing")
 }
